@@ -1,0 +1,317 @@
+
+
+/* RESET */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+strong,
+u,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside, 
+figure,
+figcaption,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video{
+  border:0;
+  font-size:100%;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+li{list-style: none;}
+
+html{scroll-behavior:smooth;}
+body{
+  background:#fff;
+  color:#000;
+  font-size:16px;
+}
+ol, 
+ul,
+strong{font-weight:bold;}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+}
+a,
+a:hover{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
+}
+:focus{outline:0;}
+
+
+/* DESKTOP */
+
+/* TOPO */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  
+}
+.container{
+    max-width: 1980px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+header h1{
+  padding:30px 50px;
+  font-size: 90px;
+  color: #D6000D;
+}
+header h1 span{
+  color: #000;
+}
+header div{
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+.contato,.servicos,.inicio{
+  display: block;
+  font-size: 40px;
+  font-weight: 500;
+  max-width: 0px;
+  margin-right: 200px;
+  padding: 60px 0px;
+}
+header div .login{
+  text-align: center;
+  display: block;
+  width: 300px;
+  height: 80px;
+  margin-top: 50px;
+  margin-right: 40px;
+  font-size: 44px;
+  background: #D6000D;
+  border-radius: 20px;
+}
+.login a{
+  display: block;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* CONTEUDO */
+
+.first-section{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 250px;
+  margin-bottom: 350px;
+}
+
+.article-texts{
+  margin: 70px 180px;
+}
+
+.article-texts .alavanque{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.article-texts h1{
+color: #D6000D;
+font-size: 85px;
+}
+
+.article-texts .orcamento a{
+  max-width: 505px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 10px;
+  padding-top: 20px;
+  text-align: center;
+  display: block;
+  background: #D6000D;
+  font-size: 44px;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.second-section{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.second-article{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.second-section li{
+  margin-top: 15px;
+  margin-left: 100px;
+  font-size: 40px;
+}
+
+.second-section img{
+  width: 100%;
+}
+
+
+.third-section{
+  margin-left: 250px;
+}
+.third-section h3{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.third-section li{
+  width: 300px;
+  height: 80px;
+  background: #D6000D;
+  font-size: 44px;
+  border-radius: 20px;
+  margin-bottom: 450px;
+}
+.third-section li a{
+  display: block;
+  color: #fff;
+  padding-top: 15px;
+  padding-left: 70px;
+}
+
+
+.fourth-section{
+  max-width: 1980px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 200px;
+}
+
+.fourth-article1,.fourth-article2{
+  display: flex;
+  width: 40%;
+  flex-wrap: nowrap;
+  height: 250px;
+  border-radius: 20px;
+  background: rgb(205, 205, 205);
+}
+
+.fourth-circle1,.fourth-circle2{
+  width: 20%;
+  height: 65%;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background: #D6000D;
+}
+
+.fourth-texts{
+  max-width: 500px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.fourth-texts p{
+  font-size: 24px;
+}
+.fourth-texts h4{
+  margin-top: 10px;
+  font-size: 40px;
+}
+.fourth-texts h5{
+  font-size: 24px;
+}
+
+
+/* RODAPÉ */
+footer{
+  width: 100%;
+  background: #000;
+  color: #fff;
+  height: 700px;
+}
+.footer-section{
+  display: flex;
+}
+.footer-section article{
+  margin-top: 100px;
+  margin-left: 140px;
+  max-width: 400px;
+  text-align: start;
+}
+.footer-section article h3{
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+.footer-section article h5{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.footer-section article p{
+  font-size: 28px; 
+}
+.footer-contato li{
+  margin-bottom: 20px;
+}
+.footer-contato #email{
+  text-decoration: underline;
+}
+.redes-sociais{
+  display: flex;
+}
+.redes-sociais li{
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
